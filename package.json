@@ -1,0 +1,21 @@
+{
+  "name": "assignment-uploader",
+  "version": "1.0.0",
+  "description": "this is the project that will be used to upload the students assignment",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm start",
+    "dev": "nodemon server.js"
+  },
+  "author": "rana asad fiaz",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "multer": "^1.4.2",
+    "react-dev-utils": "^11.0.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.10"
+  }
+}
